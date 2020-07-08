@@ -1,0 +1,49 @@
+
+
+ body{
+    background-image: url('./images//drew-beamer-Se7vVKzYxTI-unsplash.jpg');
+    
+    
+}
+
+/* .containerNavigation{
+    width : 100%;
+    margin : auto;
+    overflow : hidden
+} */
+
+.main-header {
+    
+    text-align: center;
+    margin-top : 30px;
+    font-size : 34px;
+    font-weight : bold;
+    
+    /* background-color : coral;
+    width : 100%;
+    font-size : 35px;
+    padding : 10px;
+    color : white;
+    
+    margin-top : 0;     */
+}
+
+.navbarAuth{
+    background-color : blueviolet;
+    color : white;
+    padding : 4px;
+    width : 100vw; 
+   
+}
+
+.navbarAuth a{
+    color : white;
+    text-decoration : none;
+    padding-right : 2px;
+   
+    
+}
+
+.navbarAuth a:hover { 
+    color : yellow;
+}

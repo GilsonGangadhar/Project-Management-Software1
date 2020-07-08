@@ -1,0 +1,38 @@
+
+
+.register{
+    overflow : hidden;
+}
+
+/* .form-box{
+    width : 380px;
+    height : 480px;
+    position : relative;
+    margin : 6%;
+    background : #fff;
+    color : #000;
+    padding-left : 400px;
+    
+} */
+
+.form-boxAuth h2{
+    text-align : center;
+    padding : 30px 0 20px 0;
+    font-size : 28px;
+    
+}
+
+/* .form-box input[type="text"]{
+    display : block;
+    padding : 8px;
+    width: 90%
+    
+}
+
+.form-box input[type="submit"]{
+    background-color :#000;
+    color : #fff;
+    padding : 10px 5px;
+    border : none;
+    width : 100%
+} */

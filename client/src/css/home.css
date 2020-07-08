@@ -1,0 +1,28 @@
+
+.profilePage h3{
+    margin-top : 20px
+}
+
+.profilePage .addProject{
+    margin-top : 30px;
+    margin-left : 500px
+}
+
+.profile-card .card {
+    background-color : darkgray;
+    color : white;
+    margin-bottom : 20px
+}
+
+.profile-card .card .card-delete{
+   
+    float : right;
+    
+}
+
+.profile-card .card .card-edit{
+    
+    float : right;
+    margin-left : 10px
+}
+
