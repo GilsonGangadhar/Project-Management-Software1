@@ -6,8 +6,14 @@ const listSchema = new Schema({
         type : String, 
         required : true
     },
+    project : {
+        type: Schema.Types.ObjectId,
+        ref : 'Project',
+        required : true
+    }
+    
 })
 
 const List = mongoose.model('List', listSchema)
 
-module.exports = listSchema
+module.exports = List

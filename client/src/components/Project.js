@@ -67,7 +67,7 @@ class Project extends React.Component {
                     <div  className="dueDate">
                     <label htmlFor="dueDate">Due Date: </label>
                     <br />
-                    <input type="date" id="dueDate" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} /></div>
+                    <input type="date" id="dueDate" className="date-input" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} /></div>
 
                     <div  className="form-group">
                     <label htmlFor="description">Description: </label>

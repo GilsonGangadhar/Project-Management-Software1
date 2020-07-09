@@ -69,7 +69,7 @@ class Project extends React.Component {
                     <div  className="dueDate">
                     <label htmlFor="dueDate">Due Date: </label>
                     <br />
-                    <input type="date" id="dueDate" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} />
+                    <input type="date" className="date-input" id="dueDate" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} />
                     <p>{project.dueDate.slice(0, 10)}</p></div>
 
                     <div  className="form-group">

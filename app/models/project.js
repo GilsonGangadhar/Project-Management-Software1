@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const List = require('../models/list') 
 
 //title, dueDate, description
 
@@ -18,7 +19,7 @@ const projectSchema = new Schema({
             message : function(value){
                 return 'Due Date cannot be less than today'
             }
-        }
+        },
     },
     description : {
         type : String
@@ -31,7 +32,12 @@ const projectSchema = new Schema({
         type : Schema.Types.ObjectId,
         ref : 'User',
         required : true
-    }
+    },
+    // lists : {
+    //     list : [
+    //         List
+    //     ]
+    // }
 })
 
 const Project = mongoose.model('Project', projectSchema)

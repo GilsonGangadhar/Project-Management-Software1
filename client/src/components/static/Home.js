@@ -27,7 +27,7 @@ class Home extends React.Component{
 
     handleRemove = (id) => {
         window.confirm("Are you sure you want to delete?")
-        if(window.confirm === true){
+        if(window.confirm){
             this.props.dispatch(startRemoveProject(id))
         }
        

@@ -6,3 +6,9 @@
     display : block;
     margin-bottom : 20px;
 }
+
+.date-input {
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 4px 10px;
+}

@@ -91,7 +91,7 @@ class EditTask extends React.Component {
                             <div className="dueDate">
                             <label htmlFor="dueDate">DueDate:  </label>
                             <br/>
-                            <input type="date" id="dueDate" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} />
+                            <input type="date" className="date-input" id="dueDate" name="dueDate" value={this.state.dueDate} onChange={this.handleChange} />
                             </div>
                             
                             <div className="form-group">
