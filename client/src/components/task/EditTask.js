@@ -78,7 +78,7 @@ class EditTask extends React.Component {
 
                             <div className="form-group">
                             <label htmlFor="description">Description: </label>
-                            <textarea id="description" name="description" value={this.state.description} onChange={this.handleChange} className="form-control"></textarea>
+                            <textarea id="description" name="description" placeholder="Description" value={this.state.description} onChange={this.handleChange} className="form-control"></textarea>
                             </div>
 
                             <div className="form-group">

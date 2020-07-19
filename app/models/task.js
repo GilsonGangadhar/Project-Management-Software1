@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-// title, description, members, dueDate, labels
+// title, description, members, dueDate, labels 
 
 const taskSchema = new Schema({
     title : {
@@ -39,20 +39,13 @@ const taskSchema = new Schema({
         type : Schema.Types.ObjectId, 
         ref : 'User',
         requied : true
-    },
+    }
     // project : {
     //     type : Schema.Types.ObjectId,
     //     ref : 'Project', 
     //     required : true
     // },
-    list : {
-        type : Schema.Types.ObjectId,
-        ref : 'List',
-        required: true
-    },
-    order : {
-        
-    }
+    
 })
 
 const Task = mongoose.model('Task', taskSchema)

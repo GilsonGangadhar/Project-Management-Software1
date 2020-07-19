@@ -28,9 +28,9 @@ tasksController.create = (req, res) => {
 tasksController.show = (req, res) => {
     const id = req.params.id
     Task.findOne({_id : id, user : req.user._id})
-        .then((project) =>{
-            if(project){
-                res.json(project)
+        .then((task) =>{
+            if(task){
+                res.json(task)
             } else{
                 res.json({})
             }
