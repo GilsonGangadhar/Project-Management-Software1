@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const configureDB = require('./config/database')
 const routes = require('./config/routes')
-const port = 3055
+const port = process.env.PORT || 3055
 const cors = require('cors')
 const path = require('path')
 //enables express to parse json data
