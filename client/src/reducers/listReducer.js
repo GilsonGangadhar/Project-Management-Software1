@@ -1,7 +1,7 @@
 import {CONSTANTS} from "../actions/pms/common"
 
 let listID = 2
-let cardID = 6
+let cardID = 4
 
 const initialStateValue = [
     {
@@ -29,14 +29,6 @@ const initialStateValue = [
             {
                 id : `card-${3}`, 
                 text : "task 4"
-            },
-            {
-                id : `card-${4}`, 
-                text : "task 5"
-            },
-            {
-                id : `card-${5}`, 
-                text : "task 6"
             }
         ]
     }
